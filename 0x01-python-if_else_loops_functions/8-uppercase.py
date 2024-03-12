@@ -2,6 +2,8 @@
 def uppercase(str):
     for i in list(str):
         if ord(i) <= 122 and ord(i) >= 97:
-            print("{:s}".format(chr(ord(i) - 32)), end="")
+            letter = "{:s}".format(chr(ord(i) - 32))
         else:
-            print("{:s}".format(i), end="")
+            letter = "{:s}".format(i)
+        print("{:s}".format(letter), end="")
+    print("\n")
