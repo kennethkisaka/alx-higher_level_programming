@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-number = "afh"
 number % 2
 d = int(str(number)[-1])
 if d == 0:
