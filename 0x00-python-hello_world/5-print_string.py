@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 str = "Holberton School"
 multiplied_str = str*3
-print(f"{multiplied_str}\n{str[:9]}")
+conc_str = str[:9]
+print(f"{multiplied_str:s}\n{str:s}\n")
